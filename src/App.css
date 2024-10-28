@@ -1,0 +1,23 @@
+/* General styles to hide scrollbar */
+* {
+    overflow: -moz-hidden-unscrollable; /* Firefox */
+    -ms-overflow-style: none;  /* Internet Explorer and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+  
+  *::-webkit-scrollbar {
+    display: none; /* Safari and Chrome */
+  }
+  
+  /* Smooth scrolling */
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Other styles */
+  body {
+    margin: 0;
+    padding: 0;
+    /* Add any other styles you need */
+  }
+  
